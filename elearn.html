@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width" initial-scale="1.0">
+        <title>Book Club E-Learning Website</title>
+        <link rel="stylesheet" href="elearn.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+        <link rel="icon" type="image/x-icon" href="Images/gradient-book-logo-with-slogan_23-2148832096.avif">
+    </head>
+    <body>
+        <header>
+            
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <img class="header-img" src="Images/gradient-book-logo-with-slogan_23-2148832096.avif" alt="logo" >
+                <a class="navbar-brand" href="#home">HOME</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#courses">COURSES <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#about">ABOUT US</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        CONTACT
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Book Webinar</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                      </div>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                    </li>
+                  </ul>
+                  <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                  </form>
+                  <nav class="profile">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16" >
+                        <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0"/>
+                        <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1"/>
+                      </svg>
+                  </nav>
+                </div>
+              </nav>
+
+        </header>
+        <section id="home"> <br><br>
+            <div class="container">
+                <img class="image" src="Images/image.png" alt="image">
+                <h1 class="first-head"> LEARNING SKILLS<br>FOR A BETTER<br>CAREER</h1>
+            <p class="first-para"> If you are looking for high performance and fast service <br> with good quality and reasonable prices.You will find it<br>here. Just Subscribe.</p>
+            <button class="button">Get Started</button>
+            
+            </div>
+            
+            
+            
+        </section>
+        <main id="courses">
+          <section id="courses">
+              <h2 class="center">Our Courses</h2>
+              <div class="course-list">
+                  <div class="course-item" onclick="showCourseDetails('course1')">
+                      <h3>Course 1</h3>
+                      <p>Introduction to Programming</p>
+                  </div>
+                  <div class="course-item" onclick="showCourseDetails('course2')">
+                      <h3>Course 2</h3>
+                      <p>Web Development</p>
+                  </div>
+                  <div class="course-item" onclick="showCourseDetails('course3')">
+                      <h3>Course 3</h3>
+                      <p>Data Science</p>
+                  </div>
+              </div>
+          </section>
+          
+          <section id="course-details">
+              <h2 class="center">Course Details</h2>
+              <div id="course1" class="course-detail">
+                  <h3 class="center">Introduction to Programming</h3>
+                  <img src="Images/intro.jpeg"  class="images"alt="Introduction" width="50%;" height="50%">
+                  <p>This course covers the basics of programming using Python.</p>
+              </div>
+              <div id="course2" class="course-detail">
+                  <h3 class="center">Web Development</h3>
+                  <img src="Images/web.png" alt="Web development" class="images" width="70%;" height="50%">
+                  <p>This course covers HTML, CSS, and JavaScript for building websites.</p>
+              </div>
+              <div id="course3" class="course-detail">
+                  <h3 class="center">Data Science</h3>
+                  <img src="Images/data.png" class="images" alt="Data Science"width="50%;" height="35%">
+                  <p>This course covers data analysis, visualization, and machine learning.</p>
+              </div>
+          </section>
+          <div id="about">
+              <h3 class="center" style= "color:skyblue;">Restricted by opportunities?</h3>
+              <h1 class="center bigger">Get the tech career <br>you deserve. Faster.</h1>
+
+              
+          </div>
+          <div class="contain">
+            <div class="contain-two">
+              <h4>Let's Start Learning</h4>
+              <h3>Go further in web development.</h3>
+              <p>Subscribe to a collection of our top courses in Javascript, CSS, React, and more with Personal Plan.</p>
+              <button class="learn">Learn More</button>
+              
+            </div>
+            <h3>What to learn next</h3>
+            <h5>Our top pic for You</h5>
+            <div class="contain-three">
+              <img src="Images/533682_c10c_4.jpg" class="image-new" height="250px;" width="300px;">
+              <h2>Java 17 Masterclass: Start coding in 2024</h2>
+              <p>Acquire Key Java Skills:From Basics to Advanced Programming <br>and Certification - Start your Dev Career </p>
+              <p style="color:grey">By Tim Buchalka And 4 others</p>
+              <button style="color:black;bg-color:yellow;"> Best Seller</button>
+            </div>
+          </div>
+
+      </main>
+
+      <footer>
+        <h4 class="left-heading">Teach the world online</h4>
+        <p class="left-heading">Create an online video course, reach students across the globe, and earn money</p>
+        <div class="line"><hr>
+          <h3 class="left-heading">Top companies choose Udemy Business to build in-demand career skills.</h3>
+          <img src="Images/nasdaq-light.svg"><img src="Images/volkswagen-light.svg"><img src="Images/box-light.svg"><img src="Images/netapp-light.svg"><img src="Images/eventbrite-light.svg">
+        </div>
+       <hr >
+       <div class="list-container">
+          <ul>
+            <li>Elearn Business</li>
+            <li>Teach on Elearn</li>
+            <li>Get the App</li>
+            <li>About Us</li>
+            <li>Contact Us</li>
+
+          </ul>
+       </div>
+      <div class="list-container">
+        <ul>
+          <li>Careers</li>
+          <li>Blog</li>
+          <li>Help and Support</li>
+          <li>Affiliate</li>
+          <li>Investors</li>
+
+        </ul>
+      </div>
+      <div class="list-container">
+          <ul>
+            <li>Terms</li>
+            <li>Privacy Policy</li>
+            <li>Cookie Settings</li>
+            <li>SiteMap</li>
+            <li>Accessibility Statement</li>
+          </ul>
+
+      </div>
+        
+        <p class="right-footer"><img src="Images/gradient-book-logo-with-slogan_23-2148832096.avif" width="60px;"height="40px;">&copy;  Book Club E-Learning Platform</p>
+        
+    </footer>
+    <script src="scripts.js"></script>
+
+
+    </body>
+</html>
